@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- define projec-title, -description in dtd 
+!ENTITY otherFile SYSTEM "XML/project-config.xml">
+
+etc
+
+
+need anotehr xslt (use current index.html)
+
+
+-->

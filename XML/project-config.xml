@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-config>
+    
+    <!-- basic project information -->
+    
+    <project-title>
+        T.S. Eliot as A Family Man
+    </project-title>
+    
+    <project-description>
+        An XML-based database of T.S. Eliot’s letters to his
+        famlies.
+    </project-description>
+    
+    <project-author>
+        <!-- not applicable for assessed work; leaving it blank -->
+    </project-author>
+    
+    <!-- taking care of the html output -->
+    <application-stylesheet-path>
+        ../CSS/application.css
+    </application-stylesheet-path>
+</project-config>

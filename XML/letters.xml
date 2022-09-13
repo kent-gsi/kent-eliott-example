@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE letters SYSTEM "../DTD/letters.dtd">
+<?xml-stylesheet type="text/xsl" href="../XSL/letter.xsl"?>
+<!--                                                   -->
+<!-- vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv -->
+<!-- Project: T.S. Eliot as a Family Man               -->
+<!-- vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv -->
+<!--                                                   -->
+<!-- Project lead: (anonymised for assessment)         -->
+<!-- with the guidance of Dr Simon Mahony              -->
+<!--                                                   -->
+<!-- part of INSTG037, MSc in DH, 2017/18.             -->
+<!--                                                   -->
+<!-- filename:                                         -->
+<!--     letters.xml                                   -->
+<!--                                                   -->
+<!-- description:                                      -->
+<!--     store the information for individual lettters -->
+<!--      indivudal letter body texts in               -->
+<!--             /individual-letter-body               -->
+<!--                                                   -->
+<!--      associated .dtd: ../DTD/letter.dtd           -->
+<!--                                                   -->
+<!-- suggested workflow:                               -->
+<!--     (1) start with info                           -->
+<!--     (2) type and encode letter texts here         -->
+<!--         focusing on major structures              -->
+<!--     (3) encode each paragraph carefully           -->
+<!--                                                   -->
+<!-- reminder:                                         -->
+<!--     DO NOT use hard linebreaks - this XML can be  --> 
+<!--     parsed by other text analysis programme       -->
+<!--     in which case forced line breaks can insert   -->
+<!--     \n's making the life of whoever wants to use  -->
+<!--     this XML very awkward.                        -->
+<!--                                                   -->
+<!-- vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv -->
+<!--                                                   -->
+
+<letters>
+    <letter id="1" language="English">
+        <info>            
+            <tse-age>34</tse-age>
+            <output-title-prefix>To </output-title-prefix>
+            <recipient recipient-id='recipient-1'>
+                Henry Eliot 
+                <note n="1">Henry Eliot: see 
+                    <link to="glossary-of-names.html">Glossary of Names</link>. 
+                </note>                
+            </recipient>
+            <date> 
+                <year>1923</year>
+                <month>January</month>
+                <day>2</day>
+            </date>
+            <source>
+                <source-archive-id>1</source-archive-id>
+                <source-archive-status>ts</source-archive-status>
+                <source-archive-name>Houghton</source-archive-name>
+                <source-book-id>1</source-book-id>
+                <source-book-title><title>The Letters of T.S. Eliot</title>: Volume 2: 1923–1925</source-book-title>
+                <source-book-page-no>
+                    <source-book-page-no-start>
+                        1
+                    </source-book-page-no-start>
+                    <source-book-page-no-end>
+                        5
+                    </source-book-page-no-end>
+                </source-book-page-no>
+            </source>
+            <address type="full">
+                <address-line>9 Clarence Gate Gdns</address-line>
+                <city>London</city>
+                <postcode>n.w.1</postcode>
+            </address>
+        </info>
+        <body>
+            <greeting>
+                <greeting-text>My dear</greeting-text> 
+                <greeting-name>Henry</greeting-name>
+                <greeting-punct>,</greeting-punct>
+            </greeting>
+            <para first="true">
+                I have so much to write to you about that I must divide it into two or three letters. The three chief subjects are 
+                <list type="unnumbered">
+                    <item> Hydraulic 
+                        <note n="2" type="source-book"> 
+                            The Hydraulic-Press Brick Company, established in St Louis in 1864. TSE’s father Henry Ware Eliot had been chairman of the company from 1909 until his death in 1919.</note>
+                    </item>
+                    <item> the Bank </item> 
+                    <item> Mother’s visit </item> 
+                </list>
+            </para>
+            <para>
+                I will only deal in this letter with the latter two. 
+            </para>
+            <para> 
+                <quote type="place"> Of course I must thank you for your goodness in writing so often, and keeping me posted about finance in <place-name>America</place-name>, and for your last admirable letter.</quote> And most of all for your latest extraordinary generosity. About your cheque: I imagine that you sent it under the impression that I had either just left the bank, or that I was just about to leave. <note n="3" type="source-book"> TSE was considering leaving Lloyds Bank (where he had started work in the Colonial and Foreign Department in Mar. 1917), but did not ultimately do so until late 1925. </note> There are three reasons why I have not yet done so and cannot at the present time. But I feel that I ought to return it to you: I will either do that, or else invest it until needed, as you prefer. Please say. I do not want to take it under any misapprehension on your part. But if I invest it,<quote type="place"> I think I shall return it to you to invest for me in <place-name>America</place-name>, as I do not like sinking any more money in  <place-name>England</place-name> at the present juncture. </quote>
+            </para>
+            <para>
+                I cannot possibly leave the bank at present, because of the way in which they have 
+                treated me. <quote type="person"> In spite of the fact that I have been absent about ten or eleven weeks
+                    during the past year, owing to <person-name>Vivien</person-name>’s illness, and constantly late, they have  raised my salary to five hundred pounds, at a time when they are raising very few salaries indeed.</quote> But this is not the main point. That is that they have shown me in  word and deed that they value my services very highly indeed, and have placed me in  a position of responsibility such that I cannot resign now without letting them down very badly and behaving with ingratitude. I am now head of an Intelligence <page-break pn="2" /> Department with a number of clerks under me, and in sole charge. I have had to organise the department, and the organisation is still far from complete. On the contrary, they are just on the point of enlarging the scope of the department much more. The heads of the bank are anxious to make a big thing of it; and I know quite well that there is at present no one else in the bank but myself who can do it for them – that is, the one or two men who might do it are not available for this post. This is not a boast: it is simply the fact that there happens to be no one available with the proper qualifications, and as a matter of fact they had me in view from the inception of the idea. The bank is getting bigger and bigger, with interests practically all over the world, and affiliated banks everywhere, and there is the opportunity to create a service of Intelligence which would be quite unique. It has involved very heavy work so far: I have had to draft schemes, and at the same time attend to a mass of detail, such as the running of a printing press (which is always breaking down) and the holidays and attendances and personal grievances of the clerks; and although I have much more liberty of movement than before, I have had to be at the bank early and late to get the work done. And with it all I have to read ten or fifteen papers a day to try to keep myself posted on all sorts of subjects, such as foreign budgets, movements of crops, agricultural banks, oil developments, and what not. In addition, I am still unfortunately the only person in the bank who knows anything about the Peace Treaties, and there are two or three big lawsuits with Germans coming on this winter which involve an intimate knowledge of their history for the past four years, which no one else possesses. You will think that I have got excited about all this, but the fact remains that if I left the bank now I should simply be hanging another millstone round my conscience. The bank took me in without knowing anything about me whatever, when I was absolutely on the rocks in 1917, and has treated me with extraordinary kindness ever since. Of course this big expansion of the Intelligence work has only happened since my decision to leave: this summer I was merely running a daily newspaper of extracts from the foreign press, with another man, and it would not have been nearly so disconcerting for the bank if I had left then. 
+            </para>
+            <para>
+                This is my main reason. Another reason is the social uncertainty, owing to the
+                alarming rise of the Labour Party to power. <note n="1" type="source-book"> At the
+                    General Election on 6 Dec. 1923 the Conservatives were defeated, and on 23 Jan. 1924 Ramsay MacDonald formed the first Labour government in Britain. </note> It has thrown England into great anxiety and confusion: no one knows what sort of living <page-break pn="3" /> conditions we shall have in six months from now. <quote type="person">I have been working toward getting a position in journalism under <person-name>Lord Rothermere</person-name>.</quote> <note n="1" type="source-book">Harold Sidney Harmsworth, first Viscount Rothermere (1868–1940): proprietor of the <title>Daily Mirror</title>, <title>Sunday Pictorial</title>, <title>Glasgow Daily Record</title>, <title>Evening News</title> and <title>Sunday Mail</title>. Harold Harmsworth also shared ownership of Associated Newspapers with his elder brother, Alfred, first Viscount Northcliffe. On the death of his brother in 1922, Harold acquired his controlling interest in Associated Newspapers, including the <title>Daily Mail</title>, for £1.6 million.</note> <quote type="place">I am in sympathy with his views, in general, and he is one of the very richest and most powerful men in <place-name>England</place-name></quote>. This, of course, is the reason why I have stuck so hard to the <title type="magazine">Criterion</title>; the support and backing of the Rothermeres is something which is worth working for. I have not worked for immediate profit – for in fact I have not had a penny from it, except ordinary payments for contributions – but with a view to solidifying myself with the Rothermeres. I saw Lord Rothermere today, and he said that the political situation was so dangerous that he would not consider inviting me to leave the bank, or indeed consider any expansion of his interests or development of his papers, until the situation had cleared up, and he told me to see him again at the middle of March. <note n="2" type="source-book">Since Viscount Rothermere was estranged from his wife, Lilian (she had had an affair with his younger brother), who was the sole financial backer of the <title type="magazine">Criterion</title>, it is possible that he might have been disingenuous in his dealings with TSE.</note> </para>
+            <para>Perhaps it is as well that I should not leave just now, from some points of view. I am so jaded, with the anxiety of the past year, that I simply cannot write decent prose: my last articles in the Dial are deplorable; <note n="3" type="source-book">TSE, ‘Letters from London’, Dial 73: 3 &amp; 6 (Sept. &amp; Dec. 1922).</note> and until I can get my mind into better shape I should simply ruin my reputation by writing at all. </para> 
+            
+            <para> Now about mother. This time, I feel that it [is] impossible for me to take the responsibility either of urging her to come or urging her to remain. <quote type="person">We have been keeping on our flat, and <person-name>Ellen</person-name>, <note n="4" type="source-book">Ellen Kellond, who had been the Eliots’ maid since 1918. </note> simply because we felt that mother would not want to come to any other place</quote>; we should otherwise have disposed of it a year ago and found a place which [would] both have been cheaper and more pleasant to us, but we could have found nothing so suitable in comfort and convenience for mother. Or we should have let this flat profitably on a long lease. If the Labour Party come in, and there is a big panic and depression, we may find it very difficult to dispose of. But if mother comes, what I should do is this. I have a very nice, intelligent, serious Scotch woman [Miss Duff], who has been coming to me about twice a week for the past year to do secretarial work. She is engaged in the <page-break pn="4" /> daytime as a typist in a city office, but she is tired of city work. She is about forty, and has for me the great advantage of knowing French well. I should engage her as a resident secretary–housekeeper. <quote type="person">I should put her in to Clarence Gate to look after mother, with <person-name>Ellen</person-name> to cook, and <person-name>Miss Duff</person-name> could go about with mother and would be a much better person than <person-name>Marion</person-name></quote><note n="1" type="source-book">Marion Cushing Eliot (1877–1964) was the fourth child of Henry Ware and Charlotte Champe Eliot; TSE’s favourite sister, she had travelled with her mother to visit him in London in 1921</note> – tactful and placid. <quote type="person"><person-name>Marion</person-name> could thus get some holiday out of it, and perhaps could go into the country for a bit with <person-name>Vivien</person-name>.</quote> Then I should engage a car so that mother need do nothing on foot or in buses, and I would go away with her sometimes for weekends. 
+            </para>
+            <para>
+                And I think that I could come and fetch mother.<quote type="place">I could only come to <place-name>New York</place-name> and meet her at the boat, and leave <emphasis>immediately</emphasis> (I don’t know whether there is any passport or other red tape to interfere).</quote> I don’t conceal that this would be a considerable sacrifice. I would take most of my holiday (which is three weeks and three days and not a day more in a year) to do that, and it would mean giving up certain other plans of which I shall speak later. But the immediate point is this: I do not see any point in arranging a convoy for mother one way, if she has to be alone the other. I could not possibly make two voyages. If I brought mother over, could you come and take her back ? It would of course be a big sacrifice for you too, and tantalising to come all the way to Europe and not be able to stay, but unless you can do this I do not see how mother can come. 
+            </para>
+            <para>    
+                What I want you to do is to think over the plan for mother’s stay <note n="2" type="source-book">After the success of her visit to England in 1921, TSE was counting on his mother returning in the summer of 1923. This proved impossible, and she made her second visit only in 1924.</note> which I have outlined, and consider whether you think it feasible, and also whether you could escort mother either to England or back from England, and wire me yes or no at once. I cannot afford to remain in a state of suspense, as important plans of my own depend on this; and I cannot make the arrangements for Miss Duff etc. without knowing your opinion. In fact, our whole life is in suspense on account of the uncertainty of mother’s visit. 
+            </para>
+            <para>
+                <quote type="place">If mother could not come – and if you think she should not come – I would come to <place-name>America</place-name>; but I have always felt that a visit of four or five days, such as mine must be limited to, would be more pain than pleasure to mother. </quote>
+            </para>
+            <para>
+                Please wire me as quickly as you can. <page-break pn="5" />
+            </para>
+            <para last="true">
+                I shall try to write about other subjects within a few days. I am very tired. My fatigue, which has been growing for years, is not solely due to overwork and anxieties: it is largely due to the kink in my brain <note n="1" type="source-book">Cf. TSE’s letter to RA, 6 Nov. 1921, which spoke of suffering from ‘an aboulie and emotional derangement which has been a lifelong affliction’. Cf. also Celia in CP , II, 559–69: ‘Well, my upbringing was pretty conventional – / I had always been taught to disbelieve in sin. / Oh, I don’t mean that it was ever mentioned! / But anything wrong, from our point of view, / Was either bad form, or was psychological. / And bad form always led to disaster / Because the people one knew disapproved of it. / I don’t worry much about form, myself – / But when everything’s bad form, or mental kinks, / You either become bad form, and cease to care, / Or else, if you care, you must be kinky.’ </note> which makes life at all an unremitting strain for me, and which is at the bottom of a good many of the things about me that you object to. 
+            </para> 
+            <closer>
+                <closer-text>
+                    Affectionately your brother
+                </closer-text>
+                <closer-name>
+                    Tom
+                    <note n="3" type="source-book">At the foot , HWE wrote: ‘Mother’s going inevitably uncertain. Could bring her back. Would keep flat a while if possible [ del .]. Write Mother direct. Writing. Wired TSE.’</note>
+                </closer-name>
+            </closer>
+        </body>
+    </letter>
+    <letter id="2" language="English">
+        <info>            
+            <tse-age>35</tse-age>
+            <output-title-prefix>To </output-title-prefix>
+            <recipient recipient-id='recipient-2'>
+                His Mother 
+                <note n="1">This letter, transcribed within a letter from CCE to HWE of 17 Apr., was probably written over the weekend of 11–12 Apr., since TSE went to Fishbourne on Monday 13th.  
+                </note>                
+            </recipient>
+            <date type="supplied"> 
+                [Received 17 April 1924]
+            </date>
+            <source>
+                <source-archive-id>2</source-archive-id>
+                <source-archive-status>ts</source-archive-status>
+                <source-archive-name>Houghton</source-archive-name>
+                <source-book-id>1</source-book-id>
+                <source-book-title><title>The Letters of T.S. Eliot</title>: Volume 2: 1923–1925</source-book-title>
+                <source-book-page-no>
+                    <source-book-page-no-start>
+                        368
+                    </source-book-page-no-start>
+                    <source-book-page-no-end>
+                        368
+                    </source-book-page-no-end>
+                </source-book-page-no>
+            </source>
+            <address type="implied">
+                [London]
+            </address>
+        </info>
+        <body>
+            <greeting>
+                <greeting-text>Dearest</greeting-text> 
+                <greeting-name>Mother</greeting-name>
+                <greeting-punct>:</greeting-punct>
+            </greeting>
+            <para first="true">
+                <title type="magazine">The Criterion</title> has this minute gone to press and I am so tired that I want to lie down and sleep for a year. 
+            </para>
+            <para>
+                Today I received your two letters dated 25 and 23 March. <note type="source-book" n="2">On 23 Mar., CCE said she thought the last C. was ‘one of the best’, especially TSE’s article on ‘Elizabethan Dramatists’; and she was looking forward to ‘the book’. She thought his style had ‘improved’, and noted he had ‘given up parentheses’. </note>Thank you very much. 
+            </para>
+            <para>
+                I enclose in this letter two copies of press cuttings which have been sent me from America. <quote type="person">As one concerns <person-name>Cousin Charles</person-name><note type="source-book" n="3">President Charles William Eliot of Harvard University, whose ninetieth birthday was celebrated at Harvard on 20 Mar. 1924. See Charles William Eliot: The Man and his Beliefs, with a Biographical Study by President Neilson (1926).</note> and the other concerns your youngest son,<note type="source-book" n="4">‘T. S. Eliot in a Nutshell’, New York Herald (Mar. 1924), reported that TSE was ‘a man of abundant health and great vigor’. </note> I am in hopes that they may have interest for you.</quote>
+            </para>
+            <para>
+                In a few days Vivien and I will go to the country for three weeks to the cottage at Fishbourne. Please continue, however, to write to this address. 
+            </para>
+            <para>
+                <quote type="person"><person-name>Vivien</person-name> is much better. She has been writing since Christmas and although her output is small she has met with extraordinary success.</quote> There is no doubt whatever that she has talent. She should have been encouraged to write years ago. She has already a very exceptional and individual style. 
+            </para>
+            <para last="true">
+                Please oblige me by keeping an <emphasis>open mind</emphasis> with regard to coming to London this summer. There is no need for you to make long and elaborate preparations. There is no need for you to give me long warning. I shall be here all the summer probably alone. So keep an <emphasis>open mind</emphasis>. <note type="source-book" n="5">Having transcribed TSE’s letter, CCE told HWE: ‘I have sent an immediate answer . . . that with increasing age I had become timid about going abroad with Marian, and that I had written you I had rather pay your passage and be away a month with you than a longer time with Marian . . . Tom’s letter did not sound as though he expected me very much . . . I do not think he would have much time to give me. Vivien would have to be his first thought and I should be much alone. It does not look to me very attractive – I think I should be lonely.’</note>
+            </para>
+            <closer>
+                <closer-text>
+                    [blank]
+                </closer-text>
+                <closer-name>
+                    [blank]
+                </closer-name>
+            </closer>
+        </body>
+    </letter>
+    <letter id="3" language="English">
+        <info>            
+            <tse-age>36</tse-age>
+            <output-title-prefix>To </output-title-prefix>
+            <recipient recipient-id='recipient-1'>
+                Henry Eliot            
+            </recipient>
+            <date> 
+                <year>1925</year>  
+                <month>August</month>
+                <day>22</day>
+            </date>
+            <source>
+                <source-archive-id>2</source-archive-id>
+                <source-archive-status>MS</source-archive-status>
+                <source-archive-name>Houghton</source-archive-name>
+                <source-book-id>1</source-book-id>
+                <source-book-title><title>The Letters of T.S. Eliot</title>: Volume 2: 1923–1925</source-book-title>
+                <source-book-page-no>
+                    <source-book-page-no-start>
+                        725
+                    </source-book-page-no-start>
+                    <source-book-page-no-end>
+                        725
+                    </source-book-page-no-end>
+                </source-book-page-no>
+            </source>
+            <address type="implied">
+                [9 Clarence Gate Gdns]
+            </address>
+        </info>
+        <body>
+            <greeting>
+                <greeting-text>My dear</greeting-text> 
+                <greeting-name>brother</greeting-name>
+                <greeting-punct></greeting-punct>
+            </greeting>
+            <para first="true">
+                Thank you a thousand times for the money. <note type="source-book" n="2">A gift of $1,500, cabled on 17 July. HWE explained that it was separate from the insurance and investments discussed in his other letters.</note> Some day I will explain to you how it has saved me – for it is wrong for me to take it when you need it most yourself. Thank you for your letters and affection. I am glad you are to be married <note type="source-book" n="3">On 12 June, HWE said he was ‘very proud’, ‘very happy’, ‘very frightened’, ‘quite in love’ with Theresa Garrett. On 9 Aug., he thanked TSE for his ‘kindly letter’ about the engagement: but TSE’s letter has not been located.</note> – but I know this – that if you are happy (as I expect) you will not need me, and if you are unhappy your pride will cut you off from me. But nothing can destroy the deep and essential affection. <note type="source-book" n="4">HWE wrote on 9 Aug.: ‘I have written to you frequently with a degree of self-revelation which I have never even approximated with any other person . . . Any other person than yourself would undoubtedly misunderstand me completely and censure me severely. My faith persists that you do, in a measure at least, understand me. I have a similar faith that I can understand anything that you might wish to write me about yourself.’</note> <quote type="person">I want to know <person-name>Theresa</person-name></quote>. 
+            </para>
+            <para last="true">
+                If you <emphasis>could</emphasis> come, I could tell you much more than in letters. It would be a great happiness too. But I shall try to give you more in my letters. 
+            </para>
+            <closer>
+                <closer-text>
+                    Ever your devoted brother
+                </closer-text>
+                <closer-name>
+                    Tom
+                </closer-name>
+            </closer>
+        </body>
+    </letter>
+    <letter id="4" language="English">
+        <info>            
+            <tse-age>37 </tse-age>
+            <output-title-prefix>To </output-title-prefix>
+            <recipient recipient-id='recipient-1'>
+                Henry Eliot
+            </recipient>
+            <date> 
+                <year>1926</year>
+                <month>June</month>
+                <day>24</day>
+            </date>
+            <source>
+                <source-archive-id>2</source-archive-id>
+                <source-archive-status>ts</source-archive-status>
+                <source-archive-name>Houghton</source-archive-name>
+                <source-book-id>1</source-book-id>
+                <source-book-title><title>The Letters of T.S. Eliot</title>: Volume 2: 1923–1925</source-book-title>
+                <source-book-page-no>
+                    <source-book-page-no-start>
+                        200
+                    </source-book-page-no-start>
+                    <source-book-page-no-end>
+                        200
+                    </source-book-page-no-end>
+                </source-book-page-no>
+            </source>
+            <address type="implied">
+                <title>The Criterion</title>
+            </address>
+        </info>
+        <body>
+            <greeting>
+                <greeting-text>My dear</greeting-text> 
+                <greeting-name>brother</greeting-name>
+                <greeting-punct>,</greeting-punct>
+            </greeting>
+            <para first="true">
+                <quote type="place">I have just returned from <place-name>Paris</place-name>, where I had a very busy and tiring week.</quote> I shall go soon again. Apart from my own reasons for being there, I have unfortunately a very large acquaintance in Paris, whom, or some of whom, I have to see – one would meet them on the street anyhow: <quote type="place">I am much more protected in <place-name>London</place-name>, and it is a real rest to be here, however busy one is.</quote> I like the little house, and there are flowers in the garden now, lupins and violas and a few roses. And it is premature to give it up yet. V. may be able to live in it again. I don’t know. The signs are not very encouraging. She is very affectionate and gentle, and her regrets and self-accusations are terribly pathetic; she is very grateful to everyone in the home, and says they are very good to her. She does not want to leave, so far; the worry will begin when she does. Her beliefs in persecution are unshaken, and she still hears voices. But she has not made any attempt on her life for over a fortnight. 
+            </para>
+            <para>
+                I don’t know whether I thanked you for the money. It was very useful. I am gradually clearing up the mess. The Haigh-Woods have been very good and very helpful; but they are both infirm, and I found them, in Paris, something of a responsibility themselves. The doctors have not yet ventured on any prophecy. If she has to remain there, or somewhere, indefinitely, it will mean something like £500 a year. Of course, if I eventually get rid of this house, which I am loath to do, I can live quite inexpensively by myself. What seems likely is that in September, I shall try to let it for the winter; if V. is at large we could spend the winter at Rapallo, and <quote type="place">I could make periodical visits to <place-name>England</place-name>; for in any case I think she had better stay out of England for a year or so</quote>. 
+            </para>
+            <para>
+                What I am telling mother, and people generally, is that V. got very run down on our travels, had a touch of influenza, did not want to start again in England until she was quite fit to keep house, and decided to go into a country sanatorium in France to get fit. I have not mentioned the address to <emphasis>anyone</emphasis>: it is so well known that the word “Malmaison” is almost synonymous with insanity. 
+            </para>
+            <para last="true">
+                I shall rejoice when I get the first letter from you.
+            </para>
+            <closer>
+                <closer-text>
+                    Ever your affectionate brother
+                </closer-text>
+                <closer-name>
+                    Tom
+                </closer-name>
+            </closer>
+            <postscript>
+                I would write to Theresa if I knew her address. She wrote a sweet letter to V. but as I said it was undesirable to give it to her.
+            </postscript>
+        </body>
+    </letter>
+</letters>
